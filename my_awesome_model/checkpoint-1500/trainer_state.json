@@ -1,0 +1,52 @@
+{
+  "best_metric": 4.360334873199463,
+  "best_model_checkpoint": "my_awesome_model\\checkpoint-750",
+  "epoch": 2.0,
+  "global_step": 1500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.67,
+      "learning_rate": 1.3333333333333333e-05,
+      "loss": 1.2539,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.000999000999000999,
+      "eval_loss": 4.360334873199463,
+      "eval_runtime": 3.0761,
+      "eval_samples_per_second": 650.828,
+      "eval_steps_per_second": 40.961,
+      "step": 750
+    },
+    {
+      "epoch": 1.33,
+      "learning_rate": 6.666666666666667e-06,
+      "loss": 0.7276,
+      "step": 1000
+    },
+    {
+      "epoch": 2.0,
+      "learning_rate": 0.0,
+      "loss": 0.599,
+      "step": 1500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.000999000999000999,
+      "eval_loss": 4.572564125061035,
+      "eval_runtime": 3.0756,
+      "eval_samples_per_second": 650.93,
+      "eval_steps_per_second": 40.968,
+      "step": 1500
+    }
+  ],
+  "max_steps": 1500,
+  "num_train_epochs": 2,
+  "total_flos": 83212456493088.0,
+  "trial_name": null,
+  "trial_params": null
+}

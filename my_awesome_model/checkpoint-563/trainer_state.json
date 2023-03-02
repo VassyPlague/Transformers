@@ -1,0 +1,31 @@
+{
+  "best_metric": 0.4025914669036865,
+  "best_model_checkpoint": "my_awesome_model\\checkpoint-563",
+  "epoch": 1.0,
+  "global_step": 563,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.89,
+      "learning_rate": 1.1119005328596803e-05,
+      "loss": 1.2276,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.935064935064935,
+      "eval_loss": 0.4025914669036865,
+      "eval_runtime": 3.3333,
+      "eval_samples_per_second": 762.31,
+      "eval_steps_per_second": 47.701,
+      "step": 563
+    }
+  ],
+  "max_steps": 1126,
+  "num_train_epochs": 2,
+  "total_flos": 30396582607248.0,
+  "trial_name": null,
+  "trial_params": null
+}

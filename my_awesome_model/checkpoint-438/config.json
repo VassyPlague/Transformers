@@ -1,0 +1,46 @@
+{
+  "_name_or_path": "cointegrated/rubert-tiny-sentiment-balanced",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "emb_size": 312,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 312,
+  "id2label": {
+    "0": "Z",
+    "1": "M",
+    "2": "J",
+    "3": "U",
+    "4": "E",
+    "5": "K",
+    "6": "I"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 600,
+  "label2id": {
+    "E": 4,
+    "I": 6,
+    "J": 2,
+    "K": 5,
+    "M": 1,
+    "U": 3,
+    "Z": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 3,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 29564
+}
